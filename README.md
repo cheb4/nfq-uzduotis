@@ -2,7 +2,7 @@
 
 ## React vieno puslapio aplikacija
 
-
+https://cheb4.github.io/nfq-uzduotis/
 
 ### pasileisti per localhost
 
