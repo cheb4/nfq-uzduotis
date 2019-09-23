@@ -25,7 +25,7 @@ class Administracija extends React.Component {
         <p>id: {ele.uid}</p>
       </div>
     ));
-    // console.log(this.state.isLocalStorageEmpty);
+
     // formik
 
     const SignupSchema = Yup.object().shape({
@@ -59,7 +59,7 @@ class Administracija extends React.Component {
           validationSchema={SignupSchema}
           onSubmit={values => {
             // same shape as initial values
-            console.log(values);
+
             this.props.addItemToStateAndLocalStorage(values);
           }}
         >

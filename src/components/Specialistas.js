@@ -11,7 +11,6 @@ class Specialistas extends React.Component {
   }
   handleChange = selectedOption => {
     this.setState({ selectedOption });
-    console.log(`Option selected:`, selectedOption);
   };
 
   // return { value: ele.specialist, label: ele.specialist };
@@ -31,7 +30,6 @@ class Specialistas extends React.Component {
       ele => ele.specialist === selectedOption.value && ele.aptarnauta !== true
     );
 
-    console.log(selectedListFilter);
     const selectedList = selectedListFilter.map(ele => (
       <div key={ele.uid}>
         <h2>{ele.uid}</h2>
@@ -39,9 +37,7 @@ class Specialistas extends React.Component {
         <p>{ele.specialist}</p>
       </div>
     ));
-    console.log("------------");
-    console.log(selectedListFilter);
-    console.log("------------");
+
     // Boolean(Array.isArray(array) && array.length)
     const firstOneOntheList = selectedList[0];
     const btnAptarnauti = (
@@ -64,10 +60,6 @@ class Specialistas extends React.Component {
         </button>
       </div>
     );
-
-    console.log("selectedListFilter[0]");
-    console.log(selectedListFilter[0]);
-    console.log("selectedListFilter[0]");
 
     return (
       <div className="App">

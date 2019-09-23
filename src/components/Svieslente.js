@@ -18,7 +18,7 @@ class Svieslente extends React.Component {
     const uniqueItemsObjectArray = uniqueItems.map(ele => ({ [ele]: [] }));
 
     let itemArrayBySpecialist = [];
-    // neefektyvus algoritmas !
+    // neefektyvus algoritmas
     // [{spec1:[{1},{2},{3}]},{spec2:[{1},{2},{3}]}]
 
     for (const specialistObject of uniqueItemsObjectArray) {
@@ -30,8 +30,8 @@ class Svieslente extends React.Component {
       itemArrayBySpecialist.push(specialistObject);
     }
 
-    console.log(itemArrayBySpecialist);
-    console.log("namesToDisplay");
+    // console.log(itemArrayBySpecialist);
+    // console.log("namesToDisplay");
     let uniqid = require("uniqid");
 
     const itemArrayBySpecialistFormated = itemArrayBySpecialist.map(ele => (

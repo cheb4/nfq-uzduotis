@@ -39,7 +39,7 @@ class App extends React.Component {
   }
   loadFromJsonToState() {
     let loaded = require("./components/AdminLogic/data.json");
-    console.log(loaded);
+    // console.log(loaded);
     this.setState(
       {
         data: loaded
@@ -65,7 +65,7 @@ class App extends React.Component {
 
   removeItemFromStateAndLocalStorage(value) {
     const filtered = this.state.data.filter(ele => ele.uid !== value);
-    console.log(filtered);
+    // console.log(filtered);
     this.setState({ data: filtered }, () => {
       localStorage.setItem("data", JSON.stringify(this.state.data));
     });
@@ -105,9 +105,9 @@ class App extends React.Component {
   }
 
   render() {
-    console.log("current state");
-    console.log(this.state.data);
-    console.log("current state");
+    // console.log("current state");
+    // console.log(this.state.data);
+    // console.log("current state");
     return (
       <Router>
         <div className="App">
