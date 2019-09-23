@@ -3,7 +3,8 @@
 ## React vieno puslapio aplikacija
 
 https://cheb4.github.io/nfq-uzduotis/
-Jeigu neužsikraus / paspauskit Pagrindinis
+#### Jeigu neužsikraus "root"
+paspauskit Pagrindinis
 
 ### pasileisti per localhost
 
