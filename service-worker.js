@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nfq-uzduotis/precache-manifest.a695ba7de36fad33d27e9e229bde78c9.js"
+  "/nfq-uzduotis/precache-manifest.2852c9a3e61f7b6d9526811b5be6db61.js"
 );
 
 self.addEventListener('message', (event) => {

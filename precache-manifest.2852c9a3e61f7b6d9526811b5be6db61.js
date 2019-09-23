@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a6b2e2490bfce3b8c977513374fb5f2",
+    "revision": "bf02fe7858c9a9b4c134c5dba18f5472",
     "url": "/nfq-uzduotis/index.html"
   },
   {
-    "revision": "126ee1021f40e0fa1348",
+    "revision": "c7172c06cc0d1ee4fc82",
     "url": "/nfq-uzduotis/static/css/main.7522e2bd.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nfq-uzduotis/static/js/2.e25a698a.chunk.js"
   },
   {
-    "revision": "126ee1021f40e0fa1348",
-    "url": "/nfq-uzduotis/static/js/main.07f7904c.chunk.js"
+    "revision": "c7172c06cc0d1ee4fc82",
+    "url": "/nfq-uzduotis/static/js/main.53397ce5.chunk.js"
   },
   {
     "revision": "e025473c44eae150b316",
