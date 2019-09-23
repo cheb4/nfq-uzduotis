@@ -21,7 +21,7 @@ formos patikrinimas
 ### gh-pages
 įkelimui į github pages
 ### react-router
-jo pagalba vygdžiau valdymą programoje
+jo pagalba vygdžiau valdymą programoje neperkraunant puslapio, blogai veikia su github pages
 ### react-select
 dropdown meiu
 ### uniqid
