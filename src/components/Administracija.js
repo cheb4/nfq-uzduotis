@@ -48,7 +48,7 @@ class Administracija extends React.Component {
 
     const ValidationSchema = () => (
       <div>
-        <h1>Sign up</h1>
+        <h1>Prideti klienta</h1>
         <Formik
           initialValues={{
             first_name: "",
